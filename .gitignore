@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Env (candidates add their own .env from .env.example)
+frontend/.env
+backend/.env
+
+# Build / cache
+.next/
+out/
+dist/
+cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Hardhat
+contracts/cache/
+contracts/artifacts/
+contracts/typechain-types/
+contracts/coverage/
+contracts/coverage.json

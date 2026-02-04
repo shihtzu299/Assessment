@@ -1,0 +1,14 @@
+{
+  "name": "counter-assessment-contracts",
+  "version": "1.0.0",
+  "description": "Smart contract assessment - Counter",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0"
+  }
+}
