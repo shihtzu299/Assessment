@@ -1,4 +1,5 @@
-require("hardhat/config");
+// Hardhat v2 plugin that injects `hre.ethers` (ethers v5). Required for deploy scripts using `hre.ethers.getSigners()` and `counter.deployed()`.
+require("@nomiclabs/hardhat-ethers");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
